@@ -4,6 +4,7 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon4 from '../assets/img/curriculum-vitae.svg';
 
 export const Footer = () => {
   return (
@@ -19,6 +20,7 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/in/rogith-saravanan-k-665019136/"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://leetcode.com/u/RogithSaravananK/"><img src={navIcon2} alt="Icon" /></a>
               <a href="#"><img src={navIcon3} alt="Icon" /></a>
+              <a href="../assets/RogithSaravanan_K.pdf" download><img src={navIcon4} alt="CV" /></a>
             </div>
             <p>Copyright 2024. All Rights Reserved</p>
           </Col>
